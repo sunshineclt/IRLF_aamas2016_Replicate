@@ -181,12 +181,12 @@ if __name__ == "__main__":
 	#experiment_cvx_contrasting(name = "cvx_contrasting",steps =15,iterations_per_run= 40,runs = 2)
 #	plot_results("cvx_contrasting","results/aamas",2)
 	plot_results("complementary","results/aamas",2)
-	#plot_results("contrasting","results/aamas",2)
-	plot_results("complementary","results/aamas",2)
-	#experiment_complementary(name = "complementary",steps =15,iterations_per_run=60 ,runs = 2)
-	#xperiment_overlapping(name = "overlapping",steps =15,iterations_per_run= 60,runs = 2)
+	plot_results("contrasting","results/aamas",2)
 	#plot_results("complementary","results/aamas",2)
-	#plot_results("overlapping","results/aamas",2)
+	#experiment_complementary(name = "complementary",steps =15,iterations_per_run=60 ,runs = 2)
+	#experiment_overlapping(name = "overlapping",steps =15,iterations_per_run= 60,runs = 2)
+	#plot_results("complementary","results/aamas",2)
+	plot_results("overlapping","results/aamas",2)
 
 
 
